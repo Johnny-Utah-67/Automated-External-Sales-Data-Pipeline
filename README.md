@@ -46,7 +46,6 @@ Build a fully automated, weekly data pipeline that:
                  ↓
             BI Monitoring & Reporting
 
-
 📈 Business Impact
 ⏱ Eliminates manual reporting effort
 ✅ Improves data reliability and trust
@@ -79,10 +78,9 @@ Build a fully automated, weekly data pipeline that:
        *  BI Monitoring
 
 🔒 Notes on Security & Privacy
-
-       *  No real credentials are stored in code
-       *  Secrets managed via environment variables
-       *  Project structure follows enterprise security best practices
-       *  Sample data is excluded or anonymized
+       * No real credentials are stored in code
+       * Secrets managed via environment variables
+       * Project structure follows enterprise security best practices
+       * Sample data is excluded or anonymized 
 
 Important to note : All identifiers, credentials, and company‑specific details have been anonymized.
