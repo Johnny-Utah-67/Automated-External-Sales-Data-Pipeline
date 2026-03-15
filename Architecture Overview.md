@@ -1,3 +1,4 @@
+```
 1. External API
      ↓
 2. Python Automation (Cloud VM / Data Factory)
@@ -9,3 +10,4 @@
 5. Standardized Analytics Tables
      ↓
 6. BI Monitoring & Reporting
+```
