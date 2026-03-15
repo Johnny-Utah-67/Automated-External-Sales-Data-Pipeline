@@ -31,7 +31,14 @@ var new_files = file_list.filter(f => loaded_files.indexOf(f) === -1);
 
 📥 Structured Load into Analytics Tables
 ```SQL
-COPY INTO analytics_tableFROM (    SELECT        METADATA$FILENAME AS source_file,        $1:"ASIN"::STRING,        $1:"SHIPPEDREVENUE"::FLOAT)FILE_FORMAT = PARQUET;
+COPY INTO analytics_table
+FROM (
+  SELECT
+    METADATA$FILENAME AS source_file,
+    $1:"ASIN"::STRING,
+    $1:"SHIPPEDREVENUE"::FLOAT
+)
+FILE_FORMAT = PARQUET;
 ```
 
 * Schema enforcement
