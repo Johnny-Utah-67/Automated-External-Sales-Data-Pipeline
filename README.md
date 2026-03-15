@@ -3,18 +3,22 @@
 🔍 Problem
 Business teams rely on timely and trustworthy sales data from external e‑commerce platforms.
 Manually downloading reports or relying on ad‑hoc processes leads to:
-  *   Delayed insights
-  *   Data inconsistencies
-  *   High operational risk
-  *   Limited scalability across teams
+
+    * Delayed insights
+    * Data inconsistencies
+    * High operational risk
+    * Limited scalability across teams
+
 This project solves that problem by fully automating the data flow, from API extraction to analytics‑ready tables.
 
 🎯 Objective
 Build a fully automated, weekly data pipeline that:
-  *   Pulls first‑party sales data from an external Selling Partner API
-  *   Stores raw files in cloud object storage
-  *   Ingests, standardizes, and validates data in a cloud data warehouse
-  *   Makes the data immediately available for centralized analytics (BI, reporting, monitoring)
+
+    * Pulls first‑party sales data from an external Selling Partner API
+    * Stores raw files in cloud object storage
+    * Ingests, standardizes, and validates data in a cloud data warehouse
+    * Makes the data immediately available for centralized analytics (BI, reporting, monitoring)
+
 ✅ No manual steps
 ✅ No duplicate loads
 ✅ Designed for multiple business users
@@ -34,19 +38,21 @@ Build a fully automated, weekly data pipeline that:
       System task execution and failures are tracked and exposed to a BI tool for visibility.
 
 🏗 Architecture Overview
-            External API
-                 ↓
-            Python Automation (Cloud VM / Data Factory)
-                 ↓
-            Cloud Object Storage (Raw Files)
-                 ↓
-            Cloud Data Warehouse (Tasks + Procedures)
-                 ↓
-            Standardized Analytics Tables
-                 ↓
-            BI Monitoring & Reporting
+
+    External API
+         ↓
+    Python Automation (Cloud VM / Data Factory)
+         ↓
+    Cloud Object Storage (Raw Files)
+         ↓
+    Cloud Data Warehouse (Tasks + Procedures)
+         ↓
+    Standardized Analytics Tables
+         ↓
+    BI Monitoring & Reporting
 
 📈 Business Impact
+
 ⏱ Eliminates manual reporting effort
 ✅ Improves data reliability and trust
 🔁 Enables repeatable, scalable ingestion
