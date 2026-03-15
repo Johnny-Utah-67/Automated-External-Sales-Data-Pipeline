@@ -1,5 +1,9 @@
 🔐 Authentication Logic (OAuth / Token‑based)
 
+* Secure authentication (no hard‑coded secrets)
+* Credentials managed via environment variables
+* Enterprise‑ready API access pattern
+
 ```python
 def get_access_token():
     payload = {
@@ -14,6 +18,10 @@ def get_access_token():
 ```
 
 📅 Dynamic Date Logic (No Manual Inputs)
+
+* Fully automated time window calculation
+* No manual parameter changes week to week
+* Aligned to business reporting periods
 
 ```python
 def get_previous_retail_week():
