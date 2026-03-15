@@ -54,6 +54,7 @@ Build a fully automated, weekly data pipeline that:
 🔍 Provides operational transparency via monitoring dashboards
 
 🧪 Key Design Principles
+
      *  Idempotent loads (no duplicate data)
      *  File‑level traceability
      *  Separation of raw vs curated data
@@ -61,6 +62,7 @@ Build a fully automated, weekly data pipeline that:
      *  Enterprise‑grade scheduling and monitoring
 
 🛠 Skills Demonstrated
+
      *  Data engineering & automation
      *  API integration & authentication
      *  Cloud data architecture
@@ -69,6 +71,7 @@ Build a fully automated, weekly data pipeline that:
      *  Cross‑functional enablement
 
 ⚙️ Technologies Used
+
      *  Python
      *  REST APIs
      *  Cloud Object Storage
@@ -78,6 +81,7 @@ Build a fully automated, weekly data pipeline that:
      *  BI Monitoring
 
 🔒 Notes on Security & Privacy
+
      * No real credentials are stored in code
      * Secrets managed via environment variables
      * Project structure follows enterprise security best practices
